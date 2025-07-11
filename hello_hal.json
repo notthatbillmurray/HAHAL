@@ -2,13 +2,13 @@
   "type": "micro",
   "wake_word": "hello hal",
   "author": "Your Name",
-  "website": "",
-  "model": "https://raw.githubusercontent.com/notthatbillmurray/HAHAL/main/hello_hal-2.tflite",
+  "model": "hello_hal-2.tflite",
+  "trained_languages": ["en"],
   "version": 2,
   "micro": {
     "probability_cutoff": 0.85,
-    "sliding_window_size": 5,
     "feature_step_size": 10,
+    "sliding_window_size": 5,
     "tensor_arena_size": 20000,
     "minimum_esphome_version": "2024.7"
   }
