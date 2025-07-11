@@ -3,7 +3,7 @@
   "wake_word": "hello hal",
   "author": "Your Name",
   "website": "",
-  "model": "hello_hal-2.tflite",
+  "model": "https://raw.githubusercontent.com/notthatbillmurray/HAHAL/main/hello_hal-2.tflite",
   "version": 2,
   "micro": {
     "probability_cutoff": 0.85,
